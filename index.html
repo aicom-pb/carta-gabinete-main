@@ -3,244 +3,375 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prefeitura de Pimenta Bueno - Carta de Serviços</title>
+    <title>Carta de Serviço - Pimenta Bueno</title>
     <meta name="description" content="Carta de Serviços da Prefeitura Municipal de Pimenta Bueno - RO. Informações sobre departamentos, competências e atendimento ao cidadão.">
     <meta name="author" content="Prefeitura de Pimenta Bueno">
     
-    <link rel="icon" type="image/png" href="assets/images/brasao.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
-    <meta property="og:title" content="Prefeitura de Pimenta Bueno - Carta de Serviços">
-    <meta property="og:description" content="Carta de Serviços da Prefeitura Municipal de Pimenta Bueno - RO">
-    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css">
     
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
-    
-    <link rel="stylesheet" href="styles.css">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header class="header">
-        <div class="header-background-image"></div>
         <div class="container">
             <div class="header-content">
-                <div class="header-title-section">
-                    <div class="header-icon-title">
-                        <div class="header-icon">
-                            <img src="assets/images/brasao.png" alt="Brasão da Prefeitura" style="width: 2.5rem; height: 2.5rem;">
-                        </div>
-                        <div>
-                            <h1>PREFEITURA DO MUNICÍPIO DE PIMENTA BUENO</h1>
-                            <p class="header-subtitle">CARTA DE SERVIÇO</p>
-                        </div>
-                    </div>
-                    
-                    <div class="main-cta">
-                        <p class="cta-text">Acesse nossas redes sociais e site da prefeitura:</p>
-                        <div class="cta-buttons">
-                            <a href="https://pimentabueno.ro.gov.br/site/" target="_blank" class="cta-button">
-                                <img src="assets/images/site.svg" alt="Ícone Site" class="cta-svg-icon">
-                                Site Oficial
-                            </a>
-                            <a href="https://www.facebook.com/PrefeituradePimentaBueno" target="_blank" class="cta-button">
-                                <img src="assets/images/facebook.svg" alt="Ícone Facebook" class="cta-svg-icon">
-                                Facebook
-                            </a>
-                            <a href="https://www.instagram.com/prefeiturapb/" target="_blank" class="cta-button">
-                                <img src="assets/images/instagram.svg" alt="Ícone Instagram" class="cta-svg-icon">
-                                Instagram
-                            </a>
-                            <a href="https://www.youtube.com/@PrefeituradePimentaBueno" target="_blank" class="cta-button">
-                                <img src="assets/images/youtube.svg" alt="Ícone YouTube" class="cta-svg-icon">
-                                YouTube
-                            </a>
-                        </div>
-                    </div>
+<div class="logo-container">
                 </div>
-
-                <div class="contact-grid">
-                    <div class="contact-item">
-                        <i data-lucide="map-pin"></i>
-                        <a href="https://www.google.com/maps/search/?api=1&query=SEU_ENDERECO_AQUI" target="_blank" class="map-link">
-                            <span>Av. Castelo Branco, 1046 - Pimenta Bueno–RO, 76970-000</span>
-                        </a>
+                
+                <div class="header-text">
+                    <h1>PREFEITURA DE PIMENTA BUENO</h1>
+                    <p class="header-subtitle">CARTA DE SERVIÇOS GABINETE</p>
+                </div>
+                
+                <div class="social-buttons">
+                    <a href="https://pimentabueno.ro.gov.br/site/" target="_blank" class="social-button site">
+                        <i class="fas fa-globe"></i>
+                        <span>Site Oficial</span>
+                    </a>
+                    <a href="https://www.facebook.com/PrefeituradePimentaBueno" target="_blank" class="social-button facebook">
+                        <i class="fab fa-facebook-f"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://www.instagram.com/prefeiturapb/" target="_blank" class="social-button instagram">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://www.youtube.com/@PrefeituradePimentaBueno" target="_blank" class="social-button youtube">
+                        <i class="fab fa-youtube"></i>
+                        <span>YouTube</span>
+                    </a>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <div class="contact-title">ENDEREÇO</div>
+                            <div class="contact-value">
+                                <a href="https://www.google.com/maps/place/Prefeitura+de+Pimenta+Bueno/@-11.6708694,-61.1889152,135m/data=!3m1!1e3!4m6!3m5!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7?entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                    Av. Castelo Branco, 1046 - Pimenta Bueno - RO, 76970-000
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     
-                    <div class="contact-item">
-                        <a href="https://wa.me/5569981162254" target="_blank" class="whatsapp-link">
-                            <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                            <span>(69) 98116-2254</span>
-                        </a>
-                        <a href="https://wa.me/5569981699989" target="_blank" class="whatsapp-link">
-                            <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                            <span>(69) 98169-9989</span>
-                        </a>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <div class="contact-title">WHATSAPP</div>
+                            <div class="contact-value">
+                                <a href="https://wa.me/5569981162254" target="_blank">(69) 98116-2254 (Atendimento)</a>
+                                <a href="https://wa.me/5569981699989" target="_blank">(69) 98169-9989 (Ouvidoria)</a>
+                            </div>
+                        </div>
                     </div>
                     
-                    <div class="contact-item">
-                        <i data-lucide="mail"></i>
-                        <a href="mailto:gabinete@pimentabueno.ro.gov.br" class="mail-link">
-                            <span>gabinete@pimentabueno.ro.gov.br</span>
-                        </a>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <div class="contact-title">E-MAIL</div>
+                            <div class="contact-value">
+                                <a href="mailto:gabinete@pimentabueno.ro.gov.br">gabinete@pimentabueno.ro.gov.br</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-
-    <main class="main">
+    
+    
+    <main class="main-content">
         <div class="container">
-            <section id="gabinete-sede" class="department-section">
-                <div class="department-card">
+            <h2 class="section-title">Departamentos e Serviços</h2>
+            
+            <div class="department-grid">
+                <div class="department-card" id="gabinete-sede">
                     <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-building-2"><path d="M6 22V7H4V3h8v4h2v15"/><path d="M14 11h2"/><path d="M14 15h2"/><path d="M14 19h2"/><path d="M18 11h2"/><path d="M18 15h2"/><path d="M18 19h2"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">GABINETE: SEDE ADMINISTRATIVA</h2>
+                        <div class="card-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>GABINETE: SEDE ADMINISTRATIVA</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Chefe de Gabinete: Alexandre Aparecido de Oliveira</span>
                             </div>
                         </div>
                     </div>
                     
                     <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="http://googleusercontent.com/maps.google.com/search?q=Avenida+Castelo+Branco,1046,+Pioneiros,+Pimenta+Bueno,RO" target="_blank" class="map-link">
-                                    <span>Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000</span>
-                                </a>
+                        <div class="contact-info-card">
+                            <div class="contact-item">
+                                <div class="contact-label">Endereço:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://www.google.com/maps/place/Prefeitura+de+Pimenta+Bueno/@-11.6708694,-61.1889152,135m/data=!3m1!1e3!4m6!3m5!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7?entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                        Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000
+                                    </a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:gabinete@pimentabueno.ro.gov.br" class="mail-link">
-                                    <span>gabinete@pimentabueno.ro.gov.br</span>
-                                </a>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">WhatsApp:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://wa.me/5569981562668" target="_blank">(69) 9 8156-2668</a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981562668" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 9 8156-2668</span>
-                                </a>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">E-mail:</div>
+                                <div class="contact-value-card">
+                                    <a href="mailto:gabinete@pimentabueno.ro.gov.br">gabinete@pimentabueno.ro.gov.br</a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
-                                <span>De segunda a sexta-feira, das 07:30 às 13:30.</span>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">Horário:</div>
+                                <div class="contact-value-card">
+                                    <p class="horario-atendimento">De segunda a sexta-feira, das 07:30 às 13:30.</p>
+                                </div>
                             </div>
                         </div>
-
+                        
                         <div class="competencies">
                             <h4>Competências do Gabinete do Prefeito:</h4>
                             <ul class="competencies-list">
-                                <li>Prestar assistência e assessorar o Chefe do Poder Executivo municipal nas questões administrativas e de gestão municipal;</li>
-                                <li>Gestão da agenda do Chefe do Poder Executivo municipal e do seu Gabinete;</li>
-                                <li>Suporte administrativo nos atendimentos internos, presenciais, telefônicos e eletrônicos;</li>
-                                <li>Coordenação da equipe e a resolução de questões administrativas;</li>
-                                <li>Gerenciamento de equipe responsável pela segurança pessoal do Chefe do Poder Executivo municipal, no seu local de trabalho, residência e nos eventos públicos e viagens oficiais;</li>
-                                <li>Gestão da comunicação digital do Chefe do Poder Executivo municipal, promovendo interação e divulgação das suas ações à sociedade usuária deste meio de comunicação;</li>
-                                <li>Apreciação técnica conclusiva dos regimentos internos dos órgãos e entidades da administração pública municipal, direta e indireta.</li>
-                                <li>A articulação e mediação do relacionamento político do Poder Executivo municipal com os membros do Poder Legislativo municipal;</li>
-                                <li>A articulação e mediação do relacionamento político do Poder Executivo municipal com os membros do Poder Executivo e Poder Legislativo estadual;</li>
-                                <li>Assistir direta e imediatamente ao Chefe do Poder Executivo Municipal no desempenho de suas funções, especialmente nas ações de captação de recursos e nas interfaces interna e externa com os demais poderes e entidades;</li>
-                                <li>Prestar assistência direta e imediata ao Chefe do Poder Executivo na sua representação institucional, social e política;</li>
-                                <li>Monitorar e transmitir as diretrizes da agenda de captação de recursos e financiamentos;</li>
-                                <li>Assistir o Prefeito em assuntos referentes à política da agenda de captação de recursos e financiamentos, com entes federados e terceiro setor, nacionais e internacionais;</li>
-                                <li>Acompanhar nas casas legislativas federais, estadual e municipal, a tramitação das proposições de interesse do Município;</li>
+                                <li>Prestar assistência e assessorar o Chefe do Poder Executivo municipal nas questões administrativas e de gestão municipal.</li>
+                                <li>Gerir a agenda do Chefe do Poder Executivo municipal e do seu Gabinete.</li>
+                                <li>Prover suporte administrativo nos atendimentos internos, presenciais, telefônicos e eletrônicos.</li>
+                                <li>Coordenar a equipe e resolver questões administrativas.</li>
+                                <li>Gerenciar a equipe responsável pela segurança pessoal do Chefe do Poder Executivo municipal no local de trabalho, residência, eventos públicos e viagens oficiais.</li>
+                                <li>Gerir a comunicação digital do Chefe do Poder Executivo municipal, promovendo interação e divulgação de suas ações.</li>
+                                <li>Apreciar tecnicamente os regimentos internos dos órgãos e entidades da administração pública municipal, direta e indireta.</li>
+                                <li>Articular e mediar o relacionamento político do Poder Executivo municipal com os membros dos Poderes Legislativo municipal e estadual.</li>
+                                <li>Assistir direta e imediatamente o Chefe do Poder Executivo Municipal no desempenho de suas funções, especialmente nas ações de captação de recursos e nas interfaces interna e externa com os demais poderes e entidades.</li>
+                                <li>Prestar assistência direta e imediata ao Chefe do Poder Executivo em sua representação institucional, social e política.</li>
+                                <li>Monitorar e transmitir as diretrizes da agenda de captação de recursos e financiamentos.</li>
+                                <li>Assistir o Prefeito em assuntos referentes à política da agenda de captação de recursos e financiamentos com entes federados e terceiro setor, nacionais e internacionais.</li>
+                                <li>Acompanhar nas casas legislativas federais, estadual e municipal, a tramitação das proposições de interesse do Município.</li>
                                 <li>Subsidiar a formulação e integração das políticas públicas de Governo, em articulação com os demais órgãos da esfera administrativa.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section id="chefe-de-gabinete" class="department-section">
-                <div class="department-card">
+                
+                <div class="department-card" id="chefe-gabinete">
                     <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-cog"><circle cx="12" cy="10" r="3"/><path d="M7 20v-2a3 3 0 0 1 6 0v2"/><path d="M16.5 14.99L20.5 17L18.5 21L14.5 18.99L16.5 14.99Z"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">CHEFE DE GABINETE</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Alexandre Aparecido de Oliveira</span>
-                                </div>
+                        <div class="card-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>CHEFE DE GABINETE</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Alexandre Aparecido de Oliveira</span>
                             </div>
                         </div>
                     </div>
                     
                     <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="http://googleusercontent.com/maps.google.com/search?q=Avenida+Castelo+Branco,1046,+Pioneiros,+Pimenta+Bueno,RO" target="_blank" class="map-link">
-                                    <span>Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000</span>
-                                </a>
+                        <div class="contact-info-card">
+                            <div class="contact-item">
+                                <div class="contact-label">Endereço:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://www.google.com/maps/place/Prefeitura+de+Pimenta+Bueno/@-11.6708694,-61.1889152,135m/data=!3m1!1e3!4m6!3m5!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7?entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                        Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000
+                                    </a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:gabinete@pimentabueno.ro.gov.br" class="mail-link">
-                                    <span>gabinete@pimentabueno.ro.gov.br</span>
-                                </a>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">WhatsApp:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://wa.me/5569981162254" target="_blank">(69) 98116-2254</a>
+                                    <a href="https://wa.me/5569981699989" target="_blank">(69) 98169-9989</a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981162254" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98116-2254</span>
-                                </a>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">E-mail:</div>
+                                <div class="contact-value-card">
+                                    <a href="mailto:gabinete@pimentabueno.ro.gov.br">gabinete@pimentabueno.ro.gov.br</a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981699989" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98169-9989</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
-                                <span>De segunda a sexta-feira, das 07:30 às 13:30.</span>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">Horário:</div>
+                                <div class="contact-value-card">
+                                    <p class="horario-atendimento">De segunda a sexta-feira, das 07:30 às 13:30.</p>
+                                </div>
                             </div>
                         </div>
-
+                        
                         <div class="competencies">
                             <h4>Competências:</h4>
                             <ul class="competencies-list">
-                                <li>Possui a missão de intermediar o contato direto do Prefeito com o público e demais segmentos da sociedade, além de promover a ligação entre o Chefe do Executivo e as demais Secretarias Municipais, Autarquias e fundos, além de outros órgãos dos âmbitos Municipal, Estadual e Federal, objetivando uma administração participativa voltada para o interesse público.</li>
-                                <li>Providenciar contatos com os vereadores, recebendo suas solicitações e sugestões, encaminhando-as e/ou tomando as providências, bem como acompanhar a tramitação na Câmara Municipal, dos projetos de lei de interesse do Executivo e manter controle que permita prestar informações precisas ao prefeito;</li>
-                                <li>Promover o atendimento das pessoas que procuram o Prefeito, encaminhando-as para soluções dos assuntos respectivos, ou marcando audiências, bem como representar oficialmente o Prefeito, sempre que para isso for credenciado;</li>
-                                <li>Proferir despachos interlocutórios em processos, cuja decisão caiba ao Prefeito e despachos decisórios em processos de sua competência;</li>
-                                <li>Despachar pessoalmente com o prefeito, todo o expediente que dirige e participar de reuniões coletivas, quando convocadas, bem como prorrogar ou antecipar, pelo tempo que julgar necessário, o expediente do Gabinete, além de manter-se a par das decisões do Prefeito e resolver os casos omissos;</li>
-                                <li>Controlar o sistema legislativo, inclusive os prazos de sanção e vetos de Leis, bem como acompanhar a elaboração dos projetos de leis e de outras normas, prestando junto à Câmara, quando solicitado, às informações necessárias;</li>
-                                <li>Supervisionar o sistema de comunicação, de veiculação e de publicidade de todos os atos de interesse do Poder Executivo Municipal;</li>
-                                <li>Controlar a montagem dos processos de aquisição de bens e serviços, bem como do pagamento das demais despesas do Gabinete, emitindo os respectivos documentos;</li>
-                                <li>Verificar as necessidades, controlar o estoque e efetuar a distribuição de bens e serviços de uso do Gabinete;</li>
-                                <li>Consolidar os dados do Gabinete para elaboração do Plano Plurianual, Lei de Diretrizes Orçamentárias e Lei Orçamentária Anual;</li>
-                                <li>Elaborar o relatório das atividades de Gestão;</li>
-                                <li>Coordenar o serviço de alistamento militar, para recrutamento de pessoal para servir o Exército, conforme lei do serviço militar e demais legislação correlata;</li>
-                                <li>Coordenar os servidores subordinados ao órgão, podendo distribuir tarefas e delegar funções;</li>
+                                <li>Intermediar o contato direto do Prefeito com o público e demais segmentos da sociedade.</li>
+                                <li>Promover a ligação entre o Chefe do Executivo e as demais Secretarias Municipais, Autarquias, fundos e outros órgãos.</li>
+                                <li>Providenciar contatos com os vereadores, recebendo suas solicitações e sugestões.</li>
+                                <li>Acompanhar a tramitação na Câmara Municipal dos projetos de lei de interesse do Executivo.</li>
+                                <li>Atender pessoas que procuram o Prefeito, encaminhando-as ou marcando audiências.</li>
+                                <li>Representar oficialmente o Prefeito, quando credenciado.</li>
+                                <li>Proferir despachos interlocutórios e decisórios em processos de sua competência.</li>
+                                <li>Despachar pessoalmente com o prefeito, participar de reuniões e prorrogar o expediente do Gabinete, se necessário.</li>
+                                <li>Controlar o sistema legislativo, incluindo prazos de sanção e vetos de Leis.</li>
+                                <li>Supervisionar o sistema de comunicação, veiculação e publicidade dos atos do Poder Executivo Municipal.</li>
+                                <li>Controlar a montagem dos processos de aquisição de bens e serviços e de pagamento de despesas do Gabinete.</li>
+                                <li>Verificar as necessidades, controlar o estoque e efetuar a distribuição de bens e serviços de uso do Gabinete.</li>
+                                <li>Consolidar os dados do Gabinete para elaboração do Plano Plurianual, Lei de Diretrizes Orçamentárias e Lei Orçamentária Anual.</li>
+                                <li>Elaborar o relatório das atividades de Gestão.</li>
+                                <li>Coordenar o serviço de alistamento militar.</li>
+                                <li>Coordenar os servidores subordinados ao órgão.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="department-card" id="assessoria-gabinete">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>ASSESSORIA ESPECIAL DE GABINETE</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Joao Batista Ferreira Alves</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="contact-info-card">
+                            <div class="contact-item">
+                                <div class="contact-label">Endereço:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://www.google.com/maps/place/Prefeitura+de+Pimenta+Bueno/@-11.6708694,-61.1889152,135m/data=!3m1!1e3!4m6!3m5!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7?entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                        Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-label">Horário:</div>
+                                <div class="contact-value-card">
+                                    <p class="horario-atendimento">De segunda a sexta-feira, das 07:30 às 13:30.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="competencies">
+                            <h4>Competências:</h4>
+                            <ul class="competencies-list">
+                                <li>Administrar patrimônio, informações, recursos financeiros e orçamentários.</li>
+                                <li>Gerir recursos tecnológicos, sistemas, processos, organização e métodos.</li>
+                                <li>Participar na definição da visão e missão da instituição.</li>
+                                <li>Identificar oportunidades e problemas.</li>
+                                <li>Promover estudos de racionalização e analisar a estrutura organizacional.</li>
+                                <li>Revisar normas e procedimentos.</li>
+                                <li>Realizar controle do desempenho organizacional.</li>
+                                <li>Assistir ao Prefeito em suas relações político-administrativas com os munícipes, órgãos e entidades públicas e privadas, associações de classe, Legislativo Municipal e organismos estaduais e federais.</li>
+                                <li>Preparar e expedir ofícios do Prefeito.</li>
+                                <li>Coordenar as ações de registro, publicação e expedição dos atos do Prefeito.</li>
+                                <li>Assessorar o Prefeito em suas relações com a Câmara Municipal.</li>
+                                <li>Receber e encaminhar correspondências ao Secretário(a) e órgãos da administração municipal.</li>
+                                <li>Executar outras tarefas de mesma natureza e nível de complexidade.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="department-card" id="central-gabinete">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-sitemap"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>CENTRAL DE GABINETE</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="competencies">
+                            <h4>Competências:</h4>
+                            <ul class="competencies-list">
+                                <li>Administrar organizações e materiais.</li>
+                                <li>Elaborar planejamento organizacional.</li>
+                                <li>Analisar a organização no contexto externo e interno.</li>
+                                <li>Reestruturar atividades administrativas.</li>
+                                <li>Descrever métodos e rotinas de simplificação e racionalização de serviços.</li>
+                                <li>Estabelecer rotinas de trabalho.</li>
+                                <li>Preparar relatórios.</li>
+                                <li>Promover a organização da agenda.</li>
+                                <li>Preparar e expedir ofícios do Prefeito.</li>
+                                <li>Coordenar as ações de registro, publicação e expedição dos atos do Prefeito.</li>
+                                <li>Executar o controle de prazos para sanção e veto de leis.</li>
+                                <li>Executar outras tarefas de mesma natureza e nível de complexidade.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="department-card" id="junta-militar">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-hard-hat"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>DIVISÃO DE APOIO À JUNTA DE SERVIÇOS MILITAR</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Lucineia Florentino Lima</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="contact-info-card">
+                            <div class="contact-item">
+                                <div class="contact-label">Endereço:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://www.google.com/maps/place/Prefeitura+de+Pimenta+Bueno/@-11.6708694,-61.1889152,135m/data=!3m1!1e3!4m6!3m5!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7?entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                        Rua Casemiro de Abreu, 237, Bairro: Pioneiros CEP: 76970-000
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-label">Horário:</div>
+                                <div class="contact-value-card">
+                                    <p class="horario-atendimento">Segunda a sexta-feira das 7:30 às 13:30.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="competencies">
+                            <h4>Competências:</h4>
+                            <ul class="competencies-list">
+                                <li>Atender aos munícipes na regularização de documentação do serviço militar.</li>
+                                <li>Fazer o alistamento militar para recrutamento de pessoal para servir o Exército.</li>
+                                <li>Prestar apoio, assessoria e executar outras tarefas solicitadas pela Chefia de Gabinete.</li>
                                 <li>Executar outras atividades correlatas.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section id="assessoria-especial-gabinete" class="department-section">
-                <div class="department-card">
+                
+                <div class="department-card" id="superintendencia-convenios">
                     <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">ASSESSORIA ESPECIAL DE GABINETE</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Joao Batista Ferreira Alves</span>
-                                </div>
-                            </div>
+                        <div class="card-icon">
+                            <i class="fas fa-file-contract"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>SUPERINTENDÊNCIA DE CONVÊNIOS E PRESTAÇÃO DE CONTAS</h3>
                         </div>
                     </div>
                     
@@ -248,35 +379,39 @@
                         <div class="competencies">
                             <h4>Competências:</h4>
                             <ul class="competencies-list">
-                                <li>Administrar patrimônio, informações, recursos financeiros e orçamentários;</li>
-                                <li>Gerir recursos tecnológicos; administrar sistemas, processos, organização e métodos;</li>
-                                <li>Participar na definição da visão e missão da instituição;</li>
-                                <li>Identificar oportunidades e problemas;</li>
-                                <li>Promover estudos de racionalização e analisar estrutura organizacional;</li>
-                                <li>Revisar normas e procedimentos;</li>
-                                <li>Realizar controle do desempenho organizacional;</li>
-                                <li>Assistir ao Prefeito em suas relações político-administrativas com os munícipes, órgãos e entidades públicas e privadas, associações de classe, Legislativo Municipal e organismos estaduais e federais;</li>
-                                <li>Preparar e expedir ofícios do Prefeito;</li>
-                                <li>Coordenar as ações de registro, publicação e expedição dos atos do Prefeito;</li>
-                                <li>Assessorar o Prefeito em suas relações com a Câmara Municipal;</li>
-                                <li>Receber e encaminhar correspondências ao Secretário (a) e órgãos da administração municipal;</li>
-                                <li>Executar outras tarefas de mesma natureza e nível de complexidades associadas ao ambiente organizacional.</li>
+                                <li>Atuar na seleção de projetos prioritários para o município.</li>
+                                <li>Coordenar e acompanhar a elaboração de projetos.</li>
+                                <li>Promover o envio de propostas de convênios.</li>
+                                <li>Acompanhar os processos de execução de convênios celebrados.</li>
+                                <li>Assessorar na elaboração e na execução de projetos e convênios das Secretarias Municipais.</li>
+                                <li>Manter atualizadas as informações necessárias para subsidiar a execução das ações.</li>
+                                <li>Garantir a apresentação dos projetos e convênios em tempo hábil.</li>
+                                <li>Prestar esclarecimentos aos conselhos municipais setoriais sobre projetos e convênios.</li>
+                                <li>Dar informações e assessorar segmentos da comunidade.</li>
+                                <li>Coordenar as atividades de celebração e prestação de contas dos convênios com a União e Estado.</li>
+                                <li>Coordenar e controlar a abertura dos processos, execução e prestação de contas dos convênios.</li>
+                                <li>Controlar o envio de remessa de cópia dos convênios à Contabilidade, Controladoria Geral do Município e a Coordenadoria de Patrimônio.</li>
+                                <li>Solicitar e controlar os valores de contrapartidas de convênios.</li>
+                                <li>Acompanhar a aprovação das prestações de contas dos convênios.</li>
+                                <li>Manter o controle de documentação de projetos.</li>
+                                <li>Manter sob sua guarda as certidões e documentos necessários para celebração de convênios.</li>
+                                <li>Coordenar os servidores subordinados ao órgão.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section id="central-de-gabinete" class="department-section">
-                <div class="department-card">
+                
+                <div class="department-card" id="central-convenios">
                     <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-template"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><line x1="3" x2="21" y1="9" y2="9"/><line x1="9" x2="9" y1="21" y2="9"/></svg>
+                        <div class="card-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>CENTRAL DE CONVÊNIOS</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Lucia Helena Roberto</span>
                             </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">CENTRAL DE GABINETE</h2>
-                                </div>
                         </div>
                     </div>
                     
@@ -284,79 +419,31 @@
                         <div class="competencies">
                             <h4>Competências:</h4>
                             <ul class="competencies-list">
-                                <li>Administrar organizações;</li>
-                                <li>Administrar materiais;</li>
-                                <li>Elaborar planejamento organizacional;</li>
-                                <li>Analisar a organização no contexto externo e interno;</li>
-                                <li>Reestruturar atividades administrativas;</li>
-                                <li>Descrever métodos e rotinas de simplificação e racionalização de serviços;</li>
-                                <li>Estabelecer rotinas de trabalho;</li>
-                                <li>Preparar relatórios;</li>
-                                <li>Promover a organização da agenda;</li>
-                                <li>Preparar e expedir ofícios do Prefeito;</li>
-                                <li>Coordenar as ações de registro, publicação e expedição dos atos do Prefeito;</li>
-                                <li>Executar o controle de prazos para sanção e veto de leis;</li>
-                                <li>Executar outras tarefas de mesma natureza e nível de complexidades associadas ao ambiente organizacional.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="divisao-apoio-junta-militar" class="department-section">
-                <div class="department-card">
-                    <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-army"><path d="M6 9H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h2"/><path d="M18 9h2a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-2"/><path d="M11 2h2"/><path d="M12 11v10"/><path d="M12 22h-1l-1-1-1-1-1-1h-2v-2h2l1-1 1-1 1-1h2v-2h-2l-1-1-1-1-1-1h-2V7h2l1-1 1-1 1-1h2V2h-2"/><path d="M12 22h1l1-1 1-1 1-1h2v-2h-2l-1-1-1-1-1-1h-2v-2h2l1-1 1-1 1-1h2V7h-2l-1-1-1-1-1-1h-2V2"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">DIVISÃO DE APOIO À JUNTA DE SERVIÇOS MILITAR</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Lucineia Florentino Lima</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="http://googleusercontent.com/maps.google.com/search?q=Rua+Casemiro+de+Abreu,+237,+Pioneiros,+Pimenta+Bueno,RO" target="_blank" class="map-link">
-                                    <span>Rua Casemiro de Abreu, 237, Bairro: Pioneiros CEP: 76970-000</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
-                                <span>Segunda a sexta-feira das 7:30 às 13:30.</span>
-                            </div>
-                        </div>
-
-                        <div class="competencies">
-                            <h4>Competências:</h4>
-                            <ul class="competencies-list">
-                                <li>Atender aos munícipes na regularização de documentação do serviço militar;</li>
-                                <li>Fazer o alistamento militar, para recrutamento de pessoal para servir o Exército, conforme Lei do serviço militar e demais legislação correlata;</li>
-                                <li>Prestar apoio, assessoria e executar outras tarefas solicitadas pela Chefia de Gabinete;</li>
+                                <li>Elaborar documentação referente às prestações de contas de convênios.</li>
+                                <li>Assessorar na execução de convênios das secretarias municipais.</li>
+                                <li>Manter atualizadas as informações necessárias para acompanhamento dos convênios.</li>
+                                <li>Prestar informações aos órgãos externos e internos, quando solicitado.</li>
+                                <li>Acompanhar as aprovações das prestações de convênios.</li>
+                                <li>Solicitar e controlar os valores de contrapartidas de convênios.</li>
+                                <li>Manter o controle de documentação de projetos e seu arquivamento.</li>
+                                <li>Alimentar sistemas de convênios com dados e informações pertinentes.</li>
                                 <li>Executar outras atividades correlatas.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section id="superintendencia-convenios" class="department-section">
-                <div class="department-card">
+                
+                <div class="department-card" id="assessoria-convenios-i">
                     <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+                        <div class="card-icon">
+                            <i class="fas fa-file-invoice-dollar"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>ASSESSORIA DE CONVÊNIOS I</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Graciele Trindade Calvi da Silva</span>
                             </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">SUPERINTENDÊNCIA DE CONVÊNIOS E PRESTAÇÃO DE CONTAS</h2>
-                                </div>
                         </div>
                     </div>
                     
@@ -364,45 +451,27 @@
                         <div class="competencies">
                             <h4>Competências:</h4>
                             <ul class="competencies-list">
-                                <li>Atuar na seleção de projetos prioritários para o município, a partir das demandas diagnósticas elencadas pelo Governo Municipal;</li>
-                                <li>Coordenar e acompanhar a elaboração de projetos com vistas aos resultados segundo as sistemáticas dos concedentes;</li>
-                                <li>Promover o envio de propostas de convênios;</li>
-                                <li>Acompanhar os processos de execução de convênios celebrados, com vistas ao seu fiel cumprimento;</li>
-                                <li>Assessorar na elaboração e na execução de projetos e convênios das Secretarias Municipais;</li>
-                                <li>Manter atualizadas as informações necessárias que sirvam para subsidiar a execução das ações pertinentes ao seu setor;</li>
-                                <li>Garantir, na esfera de sua competência, a apresentação dos projetos e convênios em tempo hábil;</li>
-                                <li>Prestar os devidos esclarecimentos, na esfera de sua competência, aos conselhos municipais setoriais, quanto aos projetos, convênios e/ou atividades em andamento;</li>
-                                <li>Dar informações e assessorar segmentos da comunidade quanto à execução de ações pertinentes a sua área de atuação;</li>
-                                <li>Coordenar as atividades de celebração e prestação de contas dos convênios com a União e Estado e outros;</li>
-                                <li>Coordenar e controlar a abertura dos processos, execução e prestação de contas dos convênios e termos de cooperação técnica;</li>
-                                <li>Coordenar a prestações de contas dos convênios dentro dos prazos, bem como acompanhar a vigência, solicitar prorrogação de prazo, quando necessário e fiscalizar a execução, além de assessorar o gestor do contrato na unidade executora do convênio;</li>
-                                <li>Controlar o envio de remessa de cópia dos convênios à Contabilidade, Controladoria Geral do Município e a Coordenadoria de Patrimônio;</li>
-                                <li>Solicitar e controlar os valores de contrapartidas de convênios e transferir para as contas correspondentes;</li>
-                                <li>Acompanhar a aprovação das prestações de contas dos convênios;</li>
-                                <li>Manter o controle de documentação de projetos, bem como promover a análise técnica comparativa de documentos da administração municipal, redação e articulação com técnicos das secretarias;</li>
-                                <li>Manter sob sua guarda e responsabilidade as Certidões e documentos necessários atualizados, para celebração de convênios;</li>
-                                <li>Coordinar os servidores subordinados ao órgão, podendo distribuir tarefas e delegar funções;</li>
+                                <li>Elaborar documentos relativos à proposta de convênios e captação de recursos.</li>
+                                <li>Coordenar medidas necessárias ao alcance de recursos de convênios.</li>
+                                <li>Alimentar sistemas de convênios com dados e informações relativas à proposta.</li>
+                                <li>Manter documentos em arquivos e instruir os processos referentes às propostas.</li>
+                                <li>Assistir à Superintendência de Convênios e Prestação de Contas.</li>
+                                <li>Manter atualizado o rol de certidões e documentos necessários para celebração de convênios.</li>
+                                <li>Coordenar o envio de documentos referente às propostas de convênios.</li>
+                                <li>Manter o controle de documentação de propostas e promover a análise técnica.</li>
                                 <li>Executar outras atividades correlatas.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section id="central-convenios" class="department-section">
-                <div class="department-card">
+                
+                <div class="department-card" id="assessoria-convenios-ii">
                     <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-spreadsheet"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L15.5 2z"/><polyline points="14 2 14 8 20 8"/><rect width="8" height="4" x="8" y="12" rx="1"/><rect width="8" height="4" x="8" y="17" rx="1"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">CENTRAL DE CONVÊNIOS</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Lucia Helena Roberto</span>
-                                </div>
-                            </div>
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>ASSESSORIA DE CONVÊNIOS II</h3>
                         </div>
                     </div>
                     
@@ -410,305 +479,280 @@
                         <div class="competencies">
                             <h4>Competências:</h4>
                             <ul class="competencies-list">
-                                <li>Elaborar documentação referente às prestações de contas de convênios com a União e Estado, nos prazos estabelecidos e conforme as legislações;</li>
-                                <li>Assessorar na execução de convênios das secretarias municipais; e na execução de projetos e convênios das Secretarias Municipais;</li>
-                                <li>Manter atualizadas as informações necessárias para acompanhamento dos convênios em todas as suas fases;</li>
-                                <li>Prestar informações aos órgãos externos e internos, quando solicitado na esfera de sua competência;</li>
-                                <li>Acompanhar as aprovações das prestações de convênios;</li>
-                                <li>Solicitar e controlar os valores de contrapartidas de convênios e transferir para as contas correspondentes;</li>
-                                <li>Acompanhar a aprovação das prestações de contas dos convênios;</li>
-                                <li>Manter o controle de documentação de projetos, bem como, seu devido arquivamento nos prazos legais;</li>
-                                <li>Alimentar sistemas de convênios com dados e informações pertinentes às fases de execução, atendendo às sistemáticas do concedente;</li>
+                                <li>Acompanhar a execução dos convênios das Secretarias Municipais.</li>
+                                <li>Manter atualizadas as informações necessárias para acompanhamento dos convênios.</li>
+                                <li>Auxiliar a Superintendência de Convênios e Prestação de Contas.</li>
+                                <li>Alimentar sistemas de convênios com dados e informações pertinentes.</li>
                                 <li>Executar outras atividades correlatas.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section id="assessoria-convenios-i" class="department-section">
-                <div class="department-card">
+                
+                <div class="department-card" id="corregedoria">
                     <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-plus"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><path d="M12 18v-6"/><path d="M9 15h6"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">ASSESSORIA DE CONVÊNIOS I</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Graciele Trindade Calvi da Silva</span>
-                                </div>
-                            </div>
+                        <div class="card-icon">
+                            <i class="fas fa-gavel"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>CORREGEDORIA-GERAL DO MUNICÍPIO</h3>
                         </div>
                     </div>
                     
                     <div class="card-content">
+                        <div class="contact-info-card">
+                            <div class="contact-item">
+                                <div class="contact-label">Endereço:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://www.google.com/maps/place/Prefeitura+de+Pimenta+Bueno/@-11.6708694,-61.1889152,135m/data=!3m1!1e3!4m6!3m5!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7?entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                        Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">E-mail:</div>
+                                <div class="contact-value-card">
+                                    <a href="mailto:corregedoria@pimentabueno.ro.gov.br">corregedoria@pimentabueno.ro.gov.br</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">Horário:</div>
+                                <div class="contact-value-card">
+                                    <p class="horario-atendimento">De segunda a sexta-feira, das 07:30 às 13:30.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
                         <div class="competencies">
                             <h4>Competências:</h4>
                             <ul class="competencies-list">
-                                <li>Elaborar documentos relativos à proposta de convênios e captação de recursos;</li>
-                                <li>Coordenar medidas necessárias ao alcance de recursos de convênios;</li>
-                                <li>Alimentar sistemas de convênios com dados e informações relativas à proposta atendendo às sistemáticas dos concedentes;</li>
-                                <li>Manter documentos em arquivos e instruir devidamente os processos referentes às propostas;</li>
-                                <li>Assistir à Superintendência de Convênios e Prestação de Contas nas atividades de planejamento, execução e controle;</li>
-                                <li>Manter atualizado o rol de certidões e documentos necessários para celebração de convênios;</li>
-                                <li>Coordenar o envio de documentos referente às propostas de convênios e suas alterações;</li>
-                                <li>Manter o controle de documentação de propostas, bem como, promover a análise técnicas comparativas de documentos da administração municipal, redação e articulação com técnicos das secretarias;</li>
-                                <li>Outras atividades correlatas.</li>
+                                <li>Apuração de infrações disciplinares cometidas pelos servidores municipais.</li>
+                                <li>Propor medidas para a definição, padronização, sistematização e normatização dos procedimentos operacionais de correição.</li>
+                                <li>Sugerir procedimentos para aprimorar as atividades de sindicâncias e processos administrativos disciplinares.</li>
+                                <li>Instaurar ou determinar a instauração de procedimentos e processos disciplinares.</li>
+                                <li>Manter registro atualizado da tramitação e resultado dos processos.</li>
+                                <li>Manter dados consolidados sobre os resultados de sindicâncias e processos administrativos disciplinares.</li>
+                                <li>Supervisionar as atividades de correição desempenhadas pelos órgãos e entidades submetidos à sua esfera de competência.</li>
+                                <li>Prestar apoio na instituição e manutenção de informações para o exercício das atividades de correição.</li>
+                                <li>Propor a criação de condições melhores e mais eficientes para o exercício da atividade de correição.</li>
+                                <li>Orientar e fiscalizar o cumprimento das leis e regulamentos pelos servidores municipais.</li>
+                                <li>Apreciar as representações sobre a atuação de servidores municipais.</li>
+                                <li>Promover investigação sobre o comportamento ético dos servidores municipais em estágio probatório.</li>
+                                <li>Opinar sobre os servidores municipais em estágio probatório.</li>
+                                <li>Expedir certidões no âmbito de suas atribuições.</li>
+                                <li>Realizar diligências para apuração de infrações administrativas.</li>
+                                <li>Representar à autoridade competente quando apurar a prática de crimes por servidores municipais.</li>
+                                <li>Atender ao público para recebimento de denúncias envolvendo servidores municipais.</li>
+                                <li>Receber, registrar, classificar e controlar a distribuição de processos.</li>
+                                <li>Organizar e controlar os materiais de sua responsabilidade.</li>
+                                <li>Ordenar a realização de visitas de inspeção e correções.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section id="assessoria-convenios-ii" class="department-section">
-                <div class="department-card">
+                
+                <div class="department-card" id="procuradoria">
                     <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-minus"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
+                        <div class="card-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>PROCURADORIA GERAL DO MUNICÍPIO</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Sidinei Luiz da Silva</span>
                             </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">ASSESSORIA DE CONVÊNIOS II</h2>
-                                </div>
                         </div>
                     </div>
                     
                     <div class="card-content">
+                        <div class="contact-info-card">
+                            <div class="contact-item">
+                                <div class="contact-label">Endereço:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://www.google.com/maps/place/Prefeitura+de+Pimenta+Bueno/@-11.6708694,-61.1889152,135m/data=!3m1!1e3!4m6!3m5!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7?entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                        Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">E-mail:</div>
+                                <div class="contact-value-card">
+                                    <a href="mailto:procuradoria@pimentabueno.ro.gov.br">procuradoria@pimentabueno.ro.gov.br</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">Horário:</div>
+                                <div class="contact-value-card">
+                                    <p class="horario-atendimento">De segunda a sexta-feira, das 07:30 às 13:30.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
                         <div class="competencies">
                             <h4>Competências:</h4>
                             <ul class="competencies-list">
-                                <li>Acompanhar a execução dos convênios das Secretarias Municipais;</li>
-                                <li>Manter atualizadas as informações necessárias para acompanhamento dos convênios em todas as suas fases;</li>
-                                <li>Auxiliar a Superintendência de Convênios e Prestação de Contas nas atividades do órgão;</li>
-                                <li>Alimentar sistemas de convênios com dados e informações pertinentes às fases de execução dos convênios, atendendo às sistemáticas dos concedentes;</li>
+                                <li>Representar judicial e extrajudicialmente o Município em defesa de seus interesses.</li>
+                                <li>Promover privativamente a inscrição e cobrança administrativa ou judicial da Dívida Ativa.</li>
+                                <li>Representar os interesses do município junto ao contencioso administrativo tributário.</li>
+                                <li>Elaborar minutas de informações a serem prestadas ao Poder Judiciário em mandados de segurança.</li>
+                                <li>Representar ao Prefeito sobre providências de ordem jurídica de interesse público.</li>
+                                <li>Propor medidas para a uniformização da legislação e jurisprudência administrativa.</li>
+                                <li>Exercer as funções de consultoria jurídica do Executivo e dos órgãos da Administração Direta e Indireta.</li>
+                                <li>Emitir pareceres nos processos de licitações.</li>
+                                <li>Fiscalizar a legalidade dos atos da Administração Pública.</li>
+                                <li>Requisitar aos órgãos e entidades da Administração Municipal, certidões, cópias, exames, informações, diligências e esclarecimentos.</li>
+                                <li>Celebrar convênios com órgãos semelhantes dos demais Municípios.</li>
+                                <li>Propor medidas de caráter jurídico que visem a proteger o patrimônio do município.</li>
+                                <li>Sugerir ao Prefeito e recomendar aos Secretários do município a adoção de providências necessárias.</li>
+                                <li>Transmitir aos Secretários do Município e a outras autoridades, diretrizes de teor jurídico, emanadas do Prefeito.</li>
+                                <li>Cooperar na formação de proposições de caráter normativo.</li>
+                                <li>Coordenar os servidores subordinados ao órgão, podendo distribuir tarefas e delegar funções.</li>
+                                <li>Avocar para si o exame de qualquer processo administrativo ou judicial.</li>
                                 <li>Executar outras atividades correlatas.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section id="corregedoria-geral" class="department-section">
-                <div class="department-card">
+                
+                <div class="department-card" id="controladoria">
                     <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clipboard-check"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">CORREGEDORIA-GERAL DO MUNICÍPIO</h2>
+                        <div class="card-icon">
+                            <i class="fas fa-search-dollar"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>CONTROLADORIA GERAL DO MUNICÍPIO</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Vanessa Primão Hanauer Scheffer</span>
                             </div>
                         </div>
                     </div>
                     
                     <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="http://googleusercontent.com/maps.google.com/search?q=Avenida+Castelo+Branco,1046,+Pioneiros,+Pimenta+Bueno,RO" target="_blank" class="map-link">
-                                    <span>Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000</span>
-                                </a>
+                        <div class="contact-info-card">
+                            <div class="contact-item">
+                                <div class="contact-label">Endereço:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://www.google.com/maps/place/Prefeitura+de+Pimenta+Bueno/@-11.6708694,-61.1889152,135m/data=!3m1!1e3!4m6!3m5!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7?entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                        Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000
+                                    </a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:corregedoria@pimentabueno.ro.gov.br" class="mail-link">
-                                    <span>corregedoria@pimentabueno.ro.gov.br</span>
-                                </a>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">E-mail:</div>
+                                <div class="contact-value-card">
+                                    <a href="mailto:controladoria@pimentabueno.ro.gov.br">controladoria@pimentabueno.ro.gov.br</a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
-                                <span>De segunda a sexta-feira, das 07:30 às 13:30.</span>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">Horário:</div>
+                                <div class="contact-value-card">
+                                    <p class="horario-atendimento">De segunda a sexta-feira, das 07:30 às 13:30.</p>
+                                </div>
                             </div>
                         </div>
-
+                        
                         <div class="competencies">
                             <h4>Competências:</h4>
                             <ul class="competencies-list">
-                                <li>A Corregedoria Geral do Município é um órgão de controle funcional independente que tem por finalidade a apuração de infrações disciplinares cometidas pelos servidores municipais.</li>
-                                <li>Propor medidas que visem a definição, padronização, sistematização e normatização dos procedimentos operacionais atinentes à atividade de correição;</li>
-                                <li>Sugerir procedimentos relativos ao aprimoramento das atividades relacionadas às sindicâncias e aos processos administrativos disciplinares;</li>
-                                <li>Instaurar ou determinar a instauração de procedimentos e processos disciplinares;</li>
-                                <li>Manter registro atualizado da tramitação e resultado dos processos e expedientes em curso;</li>
-                                <li>Manter dados consolidados e sistematizados, relativos aos resultados das sindicâncias e processos administrativos disciplinares, bem como à aplicação das penas respectivas;</li>
-                                <li>Supervisionar as atividades de correição desempenhadas pelos órgãos e entidades submetidos à sua esfera de competência;</li>
-                                <li>Prestar apoio na instituição e manutenção de informações, para o exercício das atividades de correição;</li>
-                                <li>Propor a criação de condições melhores e mais eficientes para o exercício da atividade de correição;</li>
-                                <li>Orientar e fiscalizar o cumprimento das leis e regulamentos pelos servidores municipais;</li>
-                                <li>Apreciar as representações que lhe forem dirigidas relativamente à atuação servidores municipais;</li>
-                                <li>Promover investigação sobre o comportamento ético dos servidores municipais em estágio probatório;</li>
-                                <li>Propor a realização de cursos de aperfeiçoamento;</li>
-                                <li>Opinar sobre os servidores municipais em estágio probatório;</li>
-                                <li>Registrar as decisões prolatadas em autos de apurações preliminares, sindicância e processos disciplinares, bem como das ações penais decorrentes;</li>
-                                <li>Expedir certidões no âmbito de suas atribuições;</li>
-                                <li>Realizar diligências para apuração de infrações administrativas;</li>
-                                <li>Representar à autoridade competente para as providências cabíveis, quando apurar a prática de crimes cometidos servidores municipais;</li>
-                                <li>Atender ao público para recebimento de denúncias envolvendo servidores municipais;</li>
-                                <li>Receber, registrar, classificar e controlar a distribuição de processos no âmbito de suas atribuições;</li>
-                                <li>Organizar e controlar os materiais de sua responsabilidade;</li>
-                                <li>Ordenar a realização de visitas de inspeção e correções ordinárias e extraordinárias em qualquer unidade ou órgão, podendo sugerir medidas necessárias ou recomendáveis para a racionalização e a melhor eficiência dos serviços.</li>
+                                <li>Avaliar os resultados da gestão orçamentária, financeira e patrimonial.</li>
+                                <li>Zelar pelo cumprimento e fiscalização da Gestão Fiscal.</li>
+                                <li>Apoiar o controle externo no exercício de sua missão institucional.</li>
+                                <li>Zelar pela preservação dos aspectos formais e morais dos atos administrativos.</li>
+                                <li>Realizar auditorias de gestão, programas, contábil, especial, operacionais, de conformidade.</li>
+                                <li>Verificar se os ativos dos órgãos e entidades da administração municipal estão contabilizados e salvaguardados.</li>
+                                <li>Orientar os órgãos e entidades da administração municipal.</li>
+                                <li>Acompanhar os prazos para a entrega dos relatórios de gestão fiscal.</li>
+                                <li>Acompanhar e analisar os limites constitucionais e legais para a despesa pública.</li>
+                                <li>Coordenar as atividades de orientação e emissão de instruções normativas.</li>
+                                <li>Coordenar a elaboração de manuais de normas e a padronização dos procedimentos de auditoria.</li>
+                                <li>Propor a impugnação de qualquer ato relativo à realização da despesa que incida em vedação legal.</li>
+                                <li>Requisitar certidões, cópias, exames, informações e esclarecimentos aos órgãos e entidades da Administração Municipal.</li>
+                                <li>Elaborar o Plano Anual de Atividades de auditoria.</li>
+                                <li>Encaminhar ao Chefe do Poder Executivo Municipal relatório circunstanciado do resultado de cada auditoria.</li>
+                                <li>Examinar e manifestar-se sobre os atos de gestão, denunciando fatos de ilegalidades ou irregularidades.</li>
+                                <li>Alertar a autoridade administrativa competente para instaurar Tomada de Contas Especial.</li>
+                                <li>Informar ao Chefe do Poder Executivo Municipal, ao Secretário da Pasta e ao Tribunal de Contas sobre as providências adotadas para correção de ilegalidades.</li>
+                                <li>Normatizar, sistematizar e padronizar os procedimentos operacionais dos órgãos e entidades municipais.</li>
+                                <li>Realizar auditorias nas contas dos responsáveis.</li>
+                                <li>Coordenar os servidores subordinados ao órgão.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section id="procuradoria-geral" class="department-section">
-                <div class="department-card">
+                
+                <div class="department-card" id="assessoria-juridica">
                     <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scale"><path d="M16 16V4a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2z"/><path d="M12 18v4"/><path d="M19 18v4"/><path d="M15 22h-6"/><path d="M18 22h-6"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">PROCURADORIA GERAL DO MUNICÍPIO</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Sidinei Luiz da Silva</span>
-                                </div>
+                        <div class="card-icon">
+                            <i class="fas fa-legal"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>ASSESSORIA TÉCNICA JURÍDICA</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Flávia Izabel Becker</span>
                             </div>
                         </div>
                     </div>
                     
                     <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="http://googleusercontent.com/maps.google.com/search?q=Avenida+Castelo+Branco,1046,+Pioneiros,+Pimenta+Bueno,RO" target="_blank" class="map-link">
-                                    <span>Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:procuradoria@pimentabueno.ro.gov.br" class="mail-link">
-                                    <span>procuradoria@pimentabueno.ro.gov.br</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
-                                <span>De segunda a sexta-feira, das 07:30 às 13:30.</span>
-                            </div>
-                        </div>
-
                         <div class="competencies">
                             <h4>Competências:</h4>
                             <ul class="competencies-list">
-                                <li>Representa judicial e extrajudicialmente o Município, em defesa de seus interesses, do seu patrimônio, e da Fazenda Pública, nas ações cíveis, trabalhistas, falimentares e nos processos especiais em que for autor, réu ou terceiro interveniente.</li>
-                                <li>Compete ao Procurador-geral a representação judicial e extrajudicialmente do Município, em defesa de seus interesses, do seu patrimônio, e da Fazenda Pública, nas ações cíveis, trabalhistas, falimentares e nos processos especiais em que for autor, réu ou terceiro interveniente;</li>
-                                <li>Promover privativamente a inscrição e cobrança administrativa ou judicial da Dívida Ativa, tributária ou não, da Fazenda Pública;</li>
-                                <li>Representar os interesses do município junto ao contencioso administrativo tributário;</li>
-                                <li>Elaborar minutas de informações a serem prestadas ao Poder Judiciário, nos mandados de segurança em que o Prefeito, os Secretários do Município e demais autoridades de idêntico nível hierárquico da administração centralizada forem apontadas como autoridades coatoras;</li>
-                                <li>Representar ao Prefeito sobre providências de ordem jurídica que lhe pareçam reclamadas pelo interesse público e pela boa aplicação das leis vigentes;</li>
-                                <li>Propor ao Prefeito, aos Secretários do Município e às autoridades de idêntico nível hierárquico, as medidas que julgar necessárias à uniformização da legislação e da jurisprudência administrativa, tanto na Administração Direta como na Indireta;</li>
-                                <li>Exercer as funções de consultoria jurídica do Executivo e dos órgãos da Administração Direta e Indireta do Município;</li>
-                                <li>Emitir pareceres nos processos de licitações;</li>
-                                <li>Editar enunciados de súmulas administrativas resultantes da jurisprudência dos Tribunais;</li>
-                                <li>Fiscalizar a legalidade dos atos da Administração Pública Direta e Indireta, propondo, quando for o caso, a anulação deles, ou quando necessário às ações judiciais cabíveis;</li>
-                                <li>Requisitar aos órgãos e entidades da Administração Municipal, certidões, cópias, exames, informações, diligências e esclarecimentos necessários ao cumprimento de suas finalidades institucionais;</li>
-                                <li>Celebrar convênios com órgãos semelhantes dos demais Municípios que tenham por objetivo a troca de informações e o exercício de atividades de interesse comum, bem como o aperfeiçoamento e a especialização dos Procuradores do Município;</li>
-                                <li>Propor medidas de caráter jurídico que visem a proteger o patrimônio do município ou aperfeiçoar as práticas administrativas;</li>
-                                <li>Sugerir ao Prefeito e recomendar aos Secretários do município a adoção de providências necessárias à boa aplicação das leis vigentes;</li>
-                                <li>Transmitir aos Secretários do Município e a outras autoridades, diretrizes de teor jurídico, emanadas do Prefeito;</li>
-                                <li>Cooperar na formação de proposições de caráter normativo;</li>
-                                <li>Ao procurador-geral compete coordenar os servidores subordinados ao órgão, podendo distribuir tarefas e delegar funções;</li>
-                                <li>Ao procurador-geral compete avocar a si o exame de qualquer processo administrativo ou judicial que se relacione com qualquer órgão da Administração do Município de Pimenta Bueno, em qualquer fase;</li>
+                                <li>Assessorar o Procurador-Geral e Procuradores.</li>
+                                <li>Acompanhar o andamento de processos.</li>
+                                <li>Elaborar minutas de despachos, pareceres e demais peças inerentes a processos administrativos e judiciais.</li>
+                                <li>Efetuar pesquisas e formalizar estudos técnicos de natureza jurídica.</li>
                                 <li>Executar outras atividades correlatas.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section id="controladoria-geral" class="department-section">
-                <div class="department-card">
+                
+                <div class="department-card" id="junta-recursos-fiscais">
                     <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scan-line"><path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/><line x1="7" x2="17" y1="12" y2="12"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">CONTROLADORIA GERAL DO MUNICÍPIO</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Vanessa Primão Hanauer Scheffer</span>
-                                </div>
+                        <div class="card-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>COORDENADORIA DE APOIO À JUNTA DE RECURSOS FISCAIS</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Marco Antonio Dias Ferreira</span>
                             </div>
                         </div>
                     </div>
                     
                     <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="http://googleusercontent.com/maps.google.com/search?q=Avenida+Castelo+Branco,1046,+Pioneiros,+Pimenta+Bueno,RO" target="_blank" class="map-link">
-                                    <span>Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:controladoria@pimentabueno.ro.gov.br" class="mail-link">
-                                    <span>controladoria@pimentabueno.ro.gov.br</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
-                                <span>De segunda a sexta-feira, das 07:30 às 13:30.</span>
-                            </div>
-                        </div>
-
                         <div class="competencies">
                             <h4>Competências:</h4>
                             <ul class="competencies-list">
-                                <li>Avaliar os resultados quanto à eficácia e eficiência da gestão orçamentária, financeira e patrimonial nos órgãos e entidades da administração municipal, bem como da aplicação de recursos públicos por entidades de direito público ou privado.</li>
-                                <li>Avaliar os resultados quanto à eficácia e eficiência da gestão orçamentária, financeira e patrimonial nos órgãos e entidades da administração municipal, bem como da aplicação de recursos públicos por entidades de direito público ou privado;</li>
-                                <li>Zelar pelo cumprimento e Fiscalização da Gestão Fiscal, em conjunto com Poder Legislativo, Ministério Público, com o auxílio dos Tribunais de Contas, com ênfase no que se refere a:</li>
-                                <ul>
-                                    <li>a) acompanhar e avaliar o cumprimento das metas previstas no Plano Plurianual, na Lei de Diretrizes Orçamentárias e na Lei Orçamentária Anual, controlando as operações de crédito, avais e garantias, bem como os direitos e haveres dos Órgãos da Administração direta e indireta do Município de Pimenta Bueno, em consonância com as disposições legais advindas pela Lei de Responsabilidade Fiscal;</li>
-                                    <li>b) limites e condições para realização de operações de crédito e inscrição em Restos a Pagar;</li>
-                                    <li>c) medidas adotadas para o retorno da despesa total com pessoal ao respectivo limite, nos termos dos artigos 22 e 23 da LRF;</li>
-                                    <li>d) providências tomadas, conforme o disposto no art. 31, para recondução dos montantes das dívidas consolidadas e mobiliária aos respectivos limites;</li>
-                                    <li>e) destinação de recursos obtidos com a alienação de ativos, tendo em vista as restrições constitucionais e as desta Lei;</li>
-                                    <li>f) examinar e manifestar-se sobre a regularidade dos relatórios exigidos pela Lei de Responsabilidade Fiscal.</li>
-                                </ul>
-                                <li>Apoiar o controle externo no exercício de sua missão institucional;</li>
-                                <li>Zelar pela preservação dos aspectos formais e morais dos atos administrativos, verificando a observância das normas legais e regulamentares pelos órgãos ou entidades da administração municipal;</li>
-                                <li>Realizar auditorias de gestão, programas, contábil, especial, operacionais, de conformidade, bem como sobre a gestão dos recursos públicos municipais sob a responsabilidade de órgãos e entidades públicas e privadas, bem como sobre aplicação de subvenções;</li>
-                                <li>Verificar a extensão em que os ativos dos órgãos e das entidades da administração municipal estejam contabilizados e salvaguardados contra perdas e danos de qualquer espécie;</li>
-                                <li>Orientar os órgãos e entidades da administração municipal, mediante análises, pareceres, recomendações e informações relativas ao controle de suas atividades, com vistas à normatização, sistematização e padronização dos sistemas, métodos e processos em uso na administração municipal;</li>
-                                <li>Acompanhar os prazos apregoados para a entrega dos relatórios de gestão fiscal, de execução orçamentária, e demais demonstrativos e relatórios em cumprimento às legislações e normas pertinentes;</li>
-                                <li>Acompanhar e analisar os limites constitucionais e legais estabelecidos para a despesa pública;</li>
-                                <li>Coordenar as atividades de orientação e emissão de instruções normativas e pareceres que visem a racionalizar a execução da despesa, bem como aumentar a eficiência e a eficácia da gestão orçamentária, financeira e patrimonial dos órgãos da administração direta e indireta da Municipalidade;</li>
-                                <li>Coordenar a elaboração de manuais de normas, sistematização e a padronização dos procedimentos de auditoria, inclusive aprovando os WP`s (papeis de trabalhos), nas circunstâncias;</li>
-                                <li>Propor a impugnação de qualquer ato relativo à realização da despesa que incida em vedação de natureza legal ou regulamentar, provendo a inscrição em diversos responsáveis, à conta dos gestores, até a apuração dos fatos; requisitar aos órgãos e entidades da Administração Municipal, certidões, cópias, exames, informações, diligências e esclarecimentos necessários ao cumprimento de suas finalidades institucionais;</li>
-                                <li>Elaborar o Plano Anual de Atividades de auditoria, em consonância com as diretrizes, normas e padrões estabelecidos para Auditoria no Serviço Público;</li>
-                                <li>Encaminhar, ao Chefe do Poder Executivo Municipal, relatório circunstanciado do resultado de cada auditoria realizada;</li>
-                                <li>Examinar e manifestar-se sobre os atos de gestão denunciando fatos inquinados de ilegalidades ou irregularidades, praticados por agentes públicos, ou privados na utilização de recursos públicos municipais, propondo à autoridade competente as providências cabíveis, bem como cientificar o Tribunal de Contas do Estado de Rondônia - TCE/RO, sob pena de responsabilidade solidária, e, quando for o caso, comunicar o responsável pela contabilidade, para providências cabíveis;</li>
-                                <li>Alertar, formalmente, a autoridade administrativa competente, para instaurar Tomada de Contas Especial, sempre que tiver conhecimento de qualquer das ocorrências que ensejem tal providência, segundo normas pertinentes;</li>
-                                <li>Informar ao Chefe do Poder Executivo Municipal, ao Secretário da Pasta e ao Tribunal de Contas do Estado de Rondônia - TCE/RO, quanto às providências adotadas para correção da ilegalidade ou irregularidade apurada, ressarcimento do eventual dano causado ao erário e evitar ocorrências semelhantes.</li>
-                                <li>Normatizar, sistematizar e padronizar os procedimentos operacionais dos órgãos e entidades municipais, observadas as disposições da Lei Orgânica e demais normas pertinentes;</li>
-                                <li>Realizar auditorias nas contas dos responsáveis sob seu controle, emitindo relatório, certificado de auditoria e parecer;</li>
-                                <li>Coordenar os servidores subordinados ao órgão, podendo distribuir tarefas e delegar funções;</li>
+                                <li>Auxiliar a Junta de Recursos Fiscais quanto às medidas administrativas para seu funcionamento.</li>
+                                <li>Receber os processos de recursos fiscais e realizar o sorteio da distribuição aos membros da Junta.</li>
+                                <li>Auxiliar os membros da Junta de Recursos Fiscais com suporte administrativo.</li>
                                 <li>Executar outras atividades correlatas.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section id="assessoria-tecnica-juridica" class="department-section">
-                <div class="department-card">
+                
+                <div class="department-card" id="divida-ativa">
                     <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scale"><path d="M16 16V4a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2z"/><path d="M12 18v4"/><path d="M19 18v4"/><path d="M15 22h-6"/><path d="M18 22h-6"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">ASSESSORIA TÉCNICA JURÍDICA</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Flávia Izabel Becker</span>
-                                </div>
+                        <div class="card-icon">
+                            <i class="fas fa-money-check-alt"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>COORDENADORIA DA DÍVIDA ATIVA</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Danubia Pinheiro Ramos Alves</span>
                             </div>
                         </div>
                     </div>
@@ -717,162 +761,91 @@
                         <div class="competencies">
                             <h4>Competências:</h4>
                             <ul class="competencies-list">
-                                <li>Assessorar o Procurador-Geral e Procuradores, acompanhando o andamento de processos, elaborar minutas de despachos, pareceres e demais peças inerentes a processos administrativos e judiciais;</li>
-                                <li>Efetuar pesquisas e formalizar estudos técnicos de natureza jurídica;</li>
-                                <li>Executar outras atividades correlatas.</li>
+                                <li>Promover a inscrição dos créditos tributários e não tributários em Dívida Ativa.</li>
+                                <li>Controlar a remessa da documentação necessária para os fins de Execução Fiscal.</li>
+                                <li>Emitir os Termos, as Certidões, os Livros e as notificações de inscrição em Dívida Ativa.</li>
+                                <li>Efetuar os assentamentos individualizados dos devedores da Fazenda Pública Municipal.</li>
+                                <li>Gerar Certidões de Dívida Ativa e promover o encaminhamento à Procuradoria-Geral do Município.</li>
+                                <li>Executar conjuntamente com a divisão de cobrança amigável a cobrança administrativa.</li>
+                                <li>Encaminhar informações à Contabilidade sobre os débitos excluídos, baixados, cancelados.</li>
+                                <li>Promover a publicação dos débitos inscritos em Dívida Ativa.</li>
+                                <li>Preparar e assinar as certidões de Dívida Ativa juntamente com o Procurador-Geral do Município.</li>
+                                <li>Coordenar os servidores subordinados ao órgão.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section id="coordenadoria-recursos-fiscais" class="department-section">
-                <div class="department-card">
+                
+                <div class="department-card" id="cobranca-amigavel">
                     <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clipboard-list"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M12 11h4"/><path d="M12 16h4"/><path d="M8 11h.01"/><path d="M8 16h.01"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">COORDENADORIA DE APOIO À JUNTA DE RECURSOS FISCAIS</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Marco Antonio Dias Ferreira</span>
-                                </div>
-                            </div>
+                        <div class="card-icon">
+                            <i class="fas fa-phone-volume"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>COORDENADORIA DE COBRANÇA AMIGÁVEL</h3>
                         </div>
                     </div>
                     
                     <div class="card-content">
-                        <div class="competencies">
-                            <h4>Competências:</h4>
-                            <ul class="competencies-list">
-                                <li>Auxiliar a Junta de Recursos Fiscais quanto às medidas administrativas para o seu funcionamento, organizando as datas de reuniões, locais, e materiais necessários;</li>
-                                <li>Receber dos órgãos competentes, os processos de recursos fiscais, e realizar o sorteio da distribuição dos processos aos membros da Junta de Recursos Fiscais, garantida a igualdade numérica na distribuição;</li>
-                                <li>Auxiliar os membros da Junta de Recursos Fiscais, em questões de suporte administrativo, sempre que solicitado;</li>
-                                <li>Executar outras atividades correlatas.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="coordenadoria-divida-ativa" class="department-section">
-                <div class="department-card">
-                    <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bar-chart-2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">COORDENADORIA DA DÍVIDA ATIVA</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Danubia Pinheiro Ramos Alves</span>
+                        <div class="contact-info-card">
+                            <div class="contact-item">
+                                <div class="contact-label">WhatsApp:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://wa.me/5569981409518" target="_blank">(69) 98140-9518 (Divisão de Dívida Ativa e Cobrança Amigável)</a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="card-content">
+                        
                         <div class="competencies">
                             <h4>Competências:</h4>
                             <ul class="competencies-list">
-                                <li>Promover a inscrição dos créditos tributários e não tributários em Dívida Ativa;</li>
-                                <li>Controlar a remessa da documentação necessária para os fins de Execução Fiscal;</li>
-                                <li>Permitir os Termos, as Certidões, os Livros e as notificações de inscrição em Dívida Ativa;</li>
-                                <li>Efetuar os assentamentos individualizados dos devedores da Fazenda Pública Municipal;</li>
-                                <li>Gerar Certidões de Dívida Ativa e promover o encaminhamento à Procuradoria-Geral do Município para análise e procedimentos de protesto dos títulos e/ou de execução fiscal;</li>
-                                <li>Executar conjuntamente com a divisão de cobrança amigável a cobrança administrativa no período em que tal procedimento é permitido;</li>
-                                <li>Encaminhar a Contabilidade, informações sobre montante dos débitos excluídos, baixados, cancelados, e demais modalidades de extinção e exclusão de débitos da Dívida Ativa do Município;</li>
-                                <li>Promover a publicação, através do órgão competente, dos débitos inscritos em Dívida Ativa conforme a legislação;</li>
-                                <li>Preparar e assinar, juntamente com o Procurador-Geral do Município, as certidões de Dívida Ativa;</li>
-                                <li>Coordenar os servidores subordinados ao órgão, podendo distribuir tarefas e delegar funções;</li>
-                                <li>Executar outras atividades correlatas.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="coordenadoria-cobranca-amigavel" class="department-section">
-                <div class="department-card">
-                    <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-messages-square"><path d="M14 9V5a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h2m8 0l3 3v-3h3a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v6"/><path d="M10 20.2V14a2 2 0 0 1 2-2h6.2"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">COORDENADORIA DE COBRANÇA AMIGÁVEL</h2>
-                                </div>
-                        </div>
-                    </div>
-                    
-                    <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981409518" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98140-9518 (Divisão de Dívida Ativa e Cobrança Amigável)</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="competencies">
-                            <h4>Competências:</h4>
-                            <ul class="competencies-list">
-                                <li>Conceder e controlar o parcelamento dos débitos tributários não inscritos na dívida ativa, conforme normas previstas na legislação tributária;</li>
-                                <li>Executar medidas amigáveis de cobrança, por meio digital, telefônico, avisos de cobrança e demais medidas extrajudiciais de cobrança de crédito tributário inscritos ou não inscritos em dívida ativa;</li>
-                                <li>Desenvolver estudos relativos à cobrança amigável do crédito tributário não inscrito em dívida ativa;</li>
-                                <li>Auxiliar as atividades relacionadas ao encaminhamento dos créditos tributários para inscrição na dívida ativa;</li>
+                                <li>Conceder e controlar o parcelamento dos débitos tributários não inscritos na dívida ativa.</li>
+                                <li>Executar medidas amigáveis de cobrança por meio digital, telefônico e avisos.</li>
+                                <li>Desenvolver estudos relativos à cobrança amigável do crédito tributário.</li>
+                                <li>Auxiliar as atividades relacionadas ao encaminhamento dos créditos tributários para inscrição na dívida ativa.</li>
                                 <li>Executar outras atividades pertinentes à gestão de receitas.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </section>
+                
+            </div>
         </div>
     </main>
-
+    
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-left">
-                    <div class="footer-title">
-                        <div class="footer-icon">
-                            <img src="assets/images/brasao.png" alt="Brasão da Prefeitura" style="width: 2rem; height: 2rem;">
-                        </div>
-                        <div>
-                            <h3>Prefeitura de Pimenta Bueno</h3>
-                            <p>Serviços Municipais</p>
-                        </div>
-                    </div>
+                <div class="footer-logo">
+                    <img src="assets/images/brasao.png" alt="Brasão de Pimenta Bueno">
+                    <h3>Prefeitura de Pimenta Bueno</h3>
+                    <p>Serviços Municipais</p>
                 </div>
                 
-                <div class="footer-right">
-                    <div class="footer-contact">
-                        <i data-lucide="map-pin"></i>
-                        <a href="https://www.google.com/maps/search/?api=1&query=SEU_ENDERECO_AQUI" target="_blank" class="map-link">
-                            <span>Av. Castelo Branco, 1046 - Pimenta Bueno–RO</span>
-                        </a>
+                <div class="footer-contact-info">
+                    <h4 class="footer-contact-title">Contato</h4>
+                    <div class="contact-item">
+                        <div class="contact-label">Endereço:</div>
+                        <div class="contact-value-card">
+                            <a href="https://www.google.com/maps/place/Prefeitura+de+Pimenta+Bueno/@-11.6708694,-61.1889152,135m/data=!3m1!1e3!4m6!3m5!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7?entry=ttu&g_ep=EgoyMDI1MDcyOS.4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                Av. Castelo Branco, 1046 - Pimenta Bueno–RO
+                            </a>
+                        </div>
                     </div>
                     
-                    <div class="footer-contact">
-                        <a href="https://wa.me/5569981162254" target="_blank" class="whatsapp-link">
-                            <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                            <span>(69) 98116-2254</span>
-                        </a>
-                        <a href="https://wa.me/5569981699989" target="_blank" class="whatsapp-link">
-                            <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                            <span>(69) 98169-9989</span>
-                        </a>
+                    <div class="contact-item">
+                        <div class="contact-label">Telefone:</div>
+                        <div class="contact-value-card">
+                            <a href="https://wa.me/5569981162254" target="_blank">(69) 98116-2254 (Atendimento)</a><br>
+                            <a href="https://wa.me/5569981699989" target="_blank">(69) 98169-9989 (Ouvidoria)</a>
+                        </div>
                     </div>
                     
-                    <div class="footer-contact">
-                        <i data-lucide="mail"></i>
-                        <a href="mailto:gabinete@pimentabueno.ro.gov.br" class="mail-link">
-                            <span>gabinete@pimentabueno.ro.gov.br</span>
-                        </a>
+                    <div class="contact-item">
+                        <div class="contact-label">E-mail:</div>
+                        <div class="contact-value-card">
+                            <a href="mailto:autarquiamect@pimentabueno.ro.gov.br">gabinete@pimentabueno.ro.gov.br</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -882,7 +855,41 @@
             </div>
         </div>
     </footer>
-
+    
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <div class="mobile-menu-title">Departamentos</div>
+            <button class="close-menu">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <div class="mobile-nav">
+            <button class="mobile-nav-btn active" data-target="gabinete-sede">Gabinete: Sede</button>
+            <button class="mobile-nav-btn" data-target="chefe-gabinete">Chefe de Gabinete</button>
+            <button class="mobile-nav-btn" data-target="assessoria-gabinete">Assessoria Especial</button>
+            <button class="mobile-nav-btn" data-target="central-gabinete">Central de Gabinete</button>
+            <button class="mobile-nav-btn" data-target="junta-militar">Junta de Serviço Militar</button>
+            <button class="mobile-nav-btn" data-target="superintendencia-convenios">Superintendência de Convênios</button>
+            <button class="mobile-nav-btn" data-target="central-convenios">Central de Convênios</button>
+            <button class="mobile-nav-btn" data-target="assessoria-convenios-i">Assessoria de Convênios I</button>
+            <button class="mobile-nav-btn" data-target="assessoria-convenios-ii">Assessoria de Convênios II</button>
+            <button class="mobile-nav-btn" data-target="corregedoria">Corregedoria</button>
+            <button class="mobile-nav-btn" data-target="procuradoria">Procuradoria</button>
+            <button class="mobile-nav-btn" data-target="controladoria">Controladoria</button>
+            <button class="mobile-nav-btn" data-target="assessoria-juridica">Assessoria Jurídica</button>
+            <button class="mobile-nav-btn" data-target="junta-recursos-fiscais">Junta de Recursos Fiscais</button>
+            <button class="mobile-nav-btn" data-target="divida-ativa">Dívida Ativa</button>
+            <button class="mobile-nav-btn" data-target="cobranca-amigavel">Cobrança Amigável</button>
+        </div>
+    </div>
+    
+    <div class="overlay"></div>
+    
     <script src="script.js"></script>
 </body>
 </html>
